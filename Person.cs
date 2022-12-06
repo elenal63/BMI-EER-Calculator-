@@ -1,25 +1,42 @@
 public class Person 
 {
-    private int height; //Height in inches
-    private int weight; //Weight in pounds
-    private int age;
-    private string sex = "";
-    private string physicalActivity = ""; //Sedentary, Low Active, Active, Very Active 
+    internal int height; //Height in inches
+    internal int weight; //Weight in pounds
+    internal int age;
+    internal string sex = "";
+    internal string physicalActivity = ""; //Sedentary, Low Active, Active, Very Active 
 
-    public void setHeight(int hei){
-        height = hei;
-    }
-    public void setWeight(int wei){
-        weight = wei;
-    }
-    public void setAge(int a){
-        age = a;
-    }
-    public void setSex(string gender){
-        sex = gender;
-    }
-    public void setPhysicalActivity(string pa){
-        physicalActivity = pa;
-    }
+//getters
 
+    public int getHeight(){
+        return height;
+    }
+    public int getWeight(){
+        return weight;
+    }
+    public int getAge(){
+        return age;
+    }
+    public string getPhysicalActivity(){
+        return physicalActivity;
+    }
+    public string getSex(){
+        return sex;
+    }
+//setters
+    public void setHeight(int height){
+        this.height = height;
+    }
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+    public void setSex(string sex){
+        this.sex = sex;
+    }
+    public void setPhysicalActivity(string physicalActivity){
+        this.physicalActivity = physicalActivity;
+    }
 }

@@ -1,0 +1,15 @@
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.csproj.AssemblyReference.cache
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.AssemblyInfoInputs.cache
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.AssemblyInfo.cs
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.csproj.CoreCompileInputs.cache
+/Users/elenaleon/cse210/BMI-EER-Calculator-/bin/Debug/net6.0/BMI-EER-Calculator-
+/Users/elenaleon/cse210/BMI-EER-Calculator-/bin/Debug/net6.0/BMI-EER-Calculator-.deps.json
+/Users/elenaleon/cse210/BMI-EER-Calculator-/bin/Debug/net6.0/BMI-EER-Calculator-.runtimeconfig.json
+/Users/elenaleon/cse210/BMI-EER-Calculator-/bin/Debug/net6.0/BMI-EER-Calculator-.dll
+/Users/elenaleon/cse210/BMI-EER-Calculator-/bin/Debug/net6.0/BMI-EER-Calculator-.pdb
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.dll
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/refint/BMI-EER-Calculator-.dll
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.pdb
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/BMI-EER-Calculator-.genruntimeconfig.cache
+/Users/elenaleon/cse210/BMI-EER-Calculator-/obj/Debug/net6.0/ref/BMI-EER-Calculator-.dll
