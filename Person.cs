@@ -1,17 +1,20 @@
 public class Person 
 {
-    internal int height; //Height in inches
-    internal int weight; //Weight in pounds
+    internal double height; //Height in inches
+    internal double weight; //Weight in pounds
     internal int age;
     internal string sex = "";
     internal string physicalActivity = ""; //Sedentary, Low Active, Active, Very Active 
 
+    public Person(){
+
+    }
 //getters
 
-    public int getHeight(){
+    public double getHeight(){
         return height;
     }
-    public int getWeight(){
+    public double getWeight(){
         return weight;
     }
     public int getAge(){
@@ -23,20 +26,13 @@ public class Person
     public string getSex(){
         return sex;
     }
-//setters
-    public void setHeight(int height){
+//class constructor 
+    public Person(double height, double weight, int age, string sex, string physicalActivity){
         this.height = height;
-    }
-    public void setWeight(int weight){
         this.weight = weight;
-    }
-    public void setAge(int age){
         this.age = age;
-    }
-    public void setSex(string sex){
         this.sex = sex;
-    }
-    public void setPhysicalActivity(string physicalActivity){
         this.physicalActivity = physicalActivity;
     }
+
 }
