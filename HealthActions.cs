@@ -12,7 +12,7 @@ public class HealthActions:BmiCalc
         else if (getBmi() >= 25.0 || getBmi() <= 29.9){
             category = "obese";
         }
-        else (getBmi() <= 30){
+        else if (getBmi() <= 30){
             category = "extreme obesity";
         }
 
