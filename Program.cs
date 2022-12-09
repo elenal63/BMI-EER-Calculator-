@@ -31,10 +31,5 @@
         string cat = Category.findCategory(Person1);
         Console.WriteLine($"You fall in the {cat} category.");
 
-        double test = Eer.convertPaToDouble("va", "f");
-        Console.WriteLine(test);
-
-        //BmiCalc.getBmi(Person1.getHeight(), Person1.getWeight());
-
     }
 }
