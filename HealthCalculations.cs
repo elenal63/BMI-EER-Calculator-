@@ -12,6 +12,6 @@ public class HealthCalculations
     }
     public double lbsToKg(double lbs){
         double kg = lbs * 0.45359237;
-        return lbs;
+        return kg;
     }
 }

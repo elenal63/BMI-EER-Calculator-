@@ -27,9 +27,12 @@
         double bmiResult = Bmi.getBmi(Person1);
         Console.WriteLine($"Your bmi is: {bmiResult}");
 
-        HealthActions Action = new HealthActions();
-        string cat = Action.findCategory(Person1);
+        HealthCategory Category = new HealthCategory();
+        string cat = Category.findCategory(Person1);
         Console.WriteLine($"You fall in the {cat} category.");
+
+        double test = Eer.convertPaToDouble("va", "f");
+        Console.WriteLine(test);
 
         //BmiCalc.getBmi(Person1.getHeight(), Person1.getWeight());
 

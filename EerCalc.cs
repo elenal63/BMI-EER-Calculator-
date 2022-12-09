@@ -3,7 +3,7 @@
 public class EerCalc:HealthCalculations
 {
     public double paNum;
-    double eerResult;
+    public double eerResult;
     public double convertPaToDouble(string pa, string sex){
         if (sex == "m"){
             if (pa == "s"){
@@ -55,7 +55,7 @@ public class EerCalc:HealthCalculations
         else if (Person.sex == "f" && (Person.age >= 9 || Person.age <= 18)){
             eerResult = eer(135.3, 30.8, Person.age, pa, 10, newWeight, 934, newHeight, 25);
         }
-        else if (Person.sex == "m" && Person.age >= 19){
+        else if (Person.sex == "f" && Person.age >= 19){
             eerResult = eer(354, 6.91, Person.age, pa, 9.36, newWeight, 726, newHeight, 0);
         }
         return Math.Round(eerResult, 2);

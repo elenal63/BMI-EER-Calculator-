@@ -1,4 +1,4 @@
-public class HealthActions:BmiCalc
+public class HealthCategory:BmiCalc
 {
     public string category = "";
     //public string plan = "";
